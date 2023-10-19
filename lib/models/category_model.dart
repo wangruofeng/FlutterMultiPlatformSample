@@ -4,5 +4,10 @@ class CatModel {
   String brandName;
   String price;
 
-  CatModel({this.image, this.catName, this.brandName, this.price});
+  CatModel({
+    required this.image,
+    required this.catName,
+    required this.brandName,
+    required this.price,
+  });
 }

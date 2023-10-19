@@ -11,7 +11,7 @@ import 'package:flutter_multiplatform_sample/widget/title_text.dart';
 import 'utils/color_utils.dart';
 
 class ProductScreen extends StatefulWidget {
-  const ProductScreen({Key key}) : super(key: key);
+  const ProductScreen({Key? key}) : super(key: key);
 
   @override
   _ProductScreenState createState() => _ProductScreenState();

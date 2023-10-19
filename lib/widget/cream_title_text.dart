@@ -7,7 +7,7 @@ class CreamTitleText extends StatelessWidget {
   final String label;
   final int maxLine;
 
-  CreamTitleText({this.label, this.maxLine = 1});
+  CreamTitleText({required this.label, this.maxLine = 1});
 
   @override
   Widget build(BuildContext context) {

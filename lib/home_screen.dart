@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_multiplatform_sample/models/product_model.dart';
 import 'package:flutter_multiplatform_sample/product_screen.dart';
@@ -15,7 +14,7 @@ import 'widget/subtitle_text.dart';
 import 'widget/title_text.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key key}) : super(key: key);
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -424,7 +423,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         Padding(
           padding: const EdgeInsets.only(top: 8.0),
-          child: CreamSmallText(label: productModel.discountString),
+          child: CreamSmallText(label: productModel.discountString ?? ""),
         ),
       ],
     );

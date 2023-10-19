@@ -10,7 +10,12 @@ class TitleText extends StatelessWidget {
   final double fontSize;
   final Color fontColor;
 
-  TitleText({this.label, this.maxLine = 1, this.fontWeight = fontWeightSemiBold, this.fontSize = fontMedium, this.fontColor = subtitleTextColor});
+  TitleText(
+      {required this.label,
+      this.maxLine = 1,
+      this.fontWeight = fontWeightSemiBold,
+      this.fontSize = fontMedium,
+      this.fontColor = subtitleTextColor});
 
   @override
   Widget build(BuildContext context) {

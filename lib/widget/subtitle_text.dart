@@ -7,7 +7,7 @@ class SubTitleText extends StatelessWidget {
   final String label;
   final int maxLine;
 
-  SubTitleText({this.label, this.maxLine = 1});
+  SubTitleText({required this.label, this.maxLine = 1});
 
   @override
   Widget build(BuildContext context) {

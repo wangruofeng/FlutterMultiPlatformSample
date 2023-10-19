@@ -3,12 +3,13 @@ class ProductModel {
   String productName;
   String brandName;
   String price;
-  String discountString;
+  String? discountString;
 
-  ProductModel(
-      {this.image,
-      this.productName,
-      this.brandName,
-      this.price,
-      this.discountString});
+  ProductModel({
+    required this.image,
+    required this.productName,
+    required this.brandName,
+    required this.price,
+    this.discountString,
+  });
 }
